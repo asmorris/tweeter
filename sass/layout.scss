@@ -1,54 +1,65 @@
+@import "colours";
 /*
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
 html {
-  box-sizing: border-box; }
-
+  box-sizing: border-box;
+}
 *,
 *:before,
 *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 /*
  * Global layout stuff
  */
+
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  color: $darkGrey;
+  background-color: $lightGrey;
   font-size: 24px;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
 .container {
   width: 90%;
   display: flex;
   margin: auto;
   flex-direction: column;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+}
 
 .main-container {
   display: flex;
   flex-direction: column;
-  margin-top: 120px; }
+  margin-top: 120px;
+}
 
 @media only screen and (min-width: 1024px) {
   .main-container {
-    flex-direction: row; } }
+    flex-direction: row;
+  }
+}
+
 .scroll-to-top {
   cursor: pointer;
-  background-color: #d97000;
+  background-color: $deepOrange;
   padding: 1rem 1.25rem;
   border-radius: 50%;
   border: none;
   position: fixed;
   right: 2rem;
-  bottom: 2rem; }
-  .scroll-to-top:hover {
-    box-shadow: 5px 4px 5px -2px #263874; }
+  bottom: 2rem;
 
-/*# sourceMappingURL=layout.css.map */
+  &:hover {
+    box-shadow: 5px 4px 5px -2px $backgroundBlueHover;
+  }
+}

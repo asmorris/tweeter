@@ -1,0 +1,72 @@
+@import "colours";
+
+.new-tweet {
+  width: 60%;
+  color: $darkGrey;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+      align-items: center;
+    }
+  }
+
+  textarea {
+    background-color: inherit;
+    border: none;
+    border-bottom: 3px solid $darkGrey;
+    width: 100%;
+    resize: none;
+    line-height: 20px;
+  }
+
+  button {
+    background-color: $backgroundBlue;
+    color: $white;
+    font-family: "Bungee", serif;
+    margin-top: 0.25rem;
+    cursor: pointer;
+  }
+}
+
+.tweet {
+  padding: 0.5em;
+
+  &:hover {
+    box-shadow: 5px 5px 0px 1px $darkGrey;
+  }
+}
+
+.user-name {
+  color: $handleBlue;
+}
+
+.counter {
+  font-family: "Bungee", serif;
+}
+
+.tweet-body {
+  border-bottom: 2px solid $darkGrey;
+  padding: 0.5em;
+}
+
+.tweet-footer {
+  margin-top: 0.5em;
+  padding: 0.25em 1em;
+  font-size: 0.75em;
+
+  i {
+    color: $backgroundBlue;
+    cursor: pointer;
+
+    &:hover {
+      color: $deepOrange;
+    }
+  }
+}

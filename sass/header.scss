@@ -1,0 +1,20 @@
+@import "colours";
+@import "mixins";
+
+.main-header {
+  height: 400px;
+  width: 100%;
+  @include align-center;
+  flex-direction: column;
+  color: $white;
+
+  background-color: $deepOrange;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-header {
+    width: 70%;
+    margin: 4rem;
+  }
+}

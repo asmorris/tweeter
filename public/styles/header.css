@@ -1,0 +1,17 @@
+.main-header {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  background-color: #d97000;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); }
+
+@media only screen and (min-width: 1024px) {
+  .main-header {
+    width: 70%;
+    margin: 4rem; } }
+
+/*# sourceMappingURL=header.css.map */
