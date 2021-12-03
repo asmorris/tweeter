@@ -7,6 +7,8 @@ This repository is the starter code for the project: Students will fork and clon
 ## What does it look like?
 ![Main Page](https://github.com/asmorris/tweeter/blob/master/docs/tweeterFullPage.png?raw=true)
 
+![Smaller screen](https://github.com/asmorris/tweeter/blob/master/docs/smallScreen.png?raw=true)
+
 
 ## Getting Started
 
